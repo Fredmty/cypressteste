@@ -1,0 +1,27 @@
+fixtures - dados e arquviso de mocks
+integration - contém os arquivos de teste .spec.js
+plugins 
+support - arquivos auxiliares e de suporte
+
+screenshots - prints
+videos - gravar video da execução teste
+
+fluxo:
+entender o fluxo manualmente
+mapear os elementos que serão interagidos
+descrever as interações com o cypress
+adicionar as assertions (validações)
+
+hooks
+trecos que executam ANTES e DEPOIS do teste:
+before -> antes de todos os testes
+beforeEach -> antes de CADA teste
+after -> depois de todos os testes
+afterEach -> depois de cada teste
+
+antes do cointains, cyget para filtrar elementos contidos.
+# para ids e . para classe
+
+npm init --yes
+npm install -D cypress
+npx cypress open
