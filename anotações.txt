@@ -12,6 +12,19 @@ mapear os elementos que serão interagidos
 descrever as interações com o cypress
 adicionar as assertions (validações)
 
+alternativas: 
+cy.viewport
+arquivos de conig
+configs por linha de comando
+por exemplo, mobile:
+exemplo linha de comando: npx cypress open --config viewportWidth=376,viewportHeight=876
+
+
+modo headless (sem abrir o ui)
+npx cypress run (grava video junto)
+
+com script = npm run cypress:run
+
 hooks
 trecos que executam ANTES e DEPOIS do teste:
 before -> antes de todos os testes
@@ -20,7 +33,7 @@ after -> depois de todos os testes
 afterEach -> depois de cada teste
 
 antes do cointains, cyget para filtrar elementos contidos.
-# para ids e . para classe
+# para ids e . para classes
 
 npm init --yes
 npm install -D cypress
